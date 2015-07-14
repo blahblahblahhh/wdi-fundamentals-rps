@@ -73,9 +73,8 @@ function getWinner(playerMove,computerMove) {
         else {
             winner = "player"
         }
-        
+    }
     return winner;
-
 }
 
 function playToFive() {
