@@ -62,9 +62,7 @@ function getWinner(playerMove,computerMove) {
         else {
             winner = "player";
         }
-    }
-    return winner;
-    
+    }    
     else (playerMove === "scissors") {
         if (computerMove === "scissors") {
             winner = "tie";
@@ -75,6 +73,8 @@ function getWinner(playerMove,computerMove) {
         else {
             winner = "player"
         }
+        
+    return winner;
 
 }
 
